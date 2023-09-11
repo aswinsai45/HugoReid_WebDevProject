@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    height:auto
+}
+
+body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    min-height:100vh;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/HRE3.png') no-repeat;
+
+}
+
+header img{
+    height: 150px;
+    max-width: 150px;
+    color: bisque;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 4%;
+    color: bisque;
+}
+    
+
+.navigations ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.navigations ul li{
+    padding: 1% 2%;
+    transition: .2s ease-in-out;
+}
+
+.navigations ul li:hover{
+    scale: 1.2;
+}
+h1{
+    font-size: 60px;
+}
+
+header p{
+    align-items: center;
+    color: darksalmon;
+    font-size: 30px;
+    font-family: "Cinzel";
+    padding-top: 70px;
+    padding-bottom: 30px;
+    position: relative;
+    max-width: 80%;
+    margin: 0;
+    height: auto;
+}
+header P2{
+    align-items: center;
+    color:darksalmon;
+    font-family: Cinzel;
+    font-size: 45px;
+
+}
+header p3{
+    font-size: 15px;
+    padding-top: 20px;
+    color: darksalmon;
+    padding-bottom: 450px;
+}
+#Home h1 {
+    font-size: 4vw; /* scaling based on the width of the viewport */
+}
+
+#Home img {
+    display: block; 
+    margin: 20px auto; /* auto margins for image */
+    max-width: 50%;
+    height: auto;
+}
+
+
+.navigations ul li a{
+    color: darksalmon;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Cinzel";
+    padding-right: 40px;
+
+}
+
+
+.announcement{
+    width: 40%;
+    height: auto;
+    border: 2px solid;
+    color: bisque;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25PX;
+    
+}
+.announcement p1{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Playfair Display;
+    color: gold;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.announcement p2{
+    font-size: 15px;
+    font-family: Playfair Display;
+    color: wheat;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.announcement p3{
+    font-size: 15px;
+    font-family: Playfair Display;
+    color: wheat;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    
+}
+
+.announcement p4{
+    font-size: 15px;
+    font-family: Playfair Display;
+    color: wheat;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    
+}
+
+
+section{
+    margin: 50px auto;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+section p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 25px 0;
+}
+
+#AboutUs{
+    color: darksalmon;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    font-family: Cinzel;
+    padding-top: 30px;
+    font-size: 20px;
+    min-height: 700px;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/Hugo-Reid-Elementary6.png') no-repeat;
+    
+}
+
+#AboutUs p{
+    color:white;
+    max-width: 100%;
+    align-items: center;
+    padding: 5%;
+    font-family: playfair display;
+    line-height: 2;
+}
+
+#AboutUs img{
+    border-style: solid;color: orange;
+    border-radius: 15px;
+    max-width: 100%;
+    margin-left: 130px;
+    
+}
+
+#Academics{
+    color: darksalmon;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    font-family: Cinzel;
+    padding-top: 30px;
+    font-size: 20px;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/academics.png') no-repeat;
+    max-width: 100%;
+    min-height: 700px;
+    
+}
+
+#Academics p{
+    color:white;
+    max-width: 100%;
+    align-items: center;
+    padding: 5%;
+    font-family: playfair display;
+    line-height: 2;
+}
+
+#Academics img{
+    border-style: solid;color: orange;
+    border-radius: 15px;
+    max-width: 100%;
+    margin-right: 200px;
+    margin-top: -60px;
+}
+
+
+.studymaterials{
+    width: 40%;
+    height: auto;
+    border: 2px solid;
+    color: bisque;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 25PX;
+}
+.studymaterials p1{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Playfair Display;
+    color: gold;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+
+.studymaterials p2{
+    font-size: 15px;
+    font-family: Playfair Display;
+    color: wheat;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    align-items: left;
+}
+
+.studymaterials p3{
+    font-size: 15px;
+    font-family: Playfair Display;
+    color: wheat;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    align-items: left;
+    
+}
+
+#Home{
+    font-family: "Josefin Sans";
+    position: relative;
+
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    padding: 20px;
+}
+
+#Gallery{
+    color: darksalmon;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    font-family: Cinzel;
+    padding-top: 30px;
+    font-size: 20px;
+    background: bisque;
+    min-height: 700px;
+    max-width: 100%;
+}
+
+#Gallery img{
+    margin-left: 120px;
+    margin-top: 30px;
+    padding:20px
+}
+
+.gal img{
+    transition: 0.3s;
+}
+.gal img:hover{
+    transform: scale(1.5);
+}
+
+
+#ContactUs{
+    color: darksalmon;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    font-family: Cinzel;
+    padding-top: 30px;
+    font-size: 20px;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/kids.jpg') no-repeat;
+    max-width: 100%;
+    min-height: 900px;
+}
+
+.mapcontainer{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mapcontainer h1{
+    font-family:cinzel;
+    font-size: 25px;
+}
+
+.contactcontent{
+    font-family: Playfair Display;
+    color: white;
+    margin-left: 240px;
+    line-height: 3;
+}
+
+iframe{
+    width: 60%;
+    height: 380px
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        flex-direction: column;
+    }
+
+    .navigations ul{
+        flex-direction: column;
+    }
+}
+
