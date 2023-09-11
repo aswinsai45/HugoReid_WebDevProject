@@ -9,6 +9,7 @@
 body, html {
     max-width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -82,7 +83,7 @@ header p3{
 
 #Home img {
     display: block; 
-    margin: 20px auto; /* auto margins for image */
+    margin: 20px auto; /* auto margins for my image */
     max-width: 50%;
     height: auto;
 }
@@ -99,11 +100,11 @@ header p3{
 
 
 .announcement{
-    width: 40%;
+    width: 49%;
     height: auto;
     border: 2px solid;
     color: bisque;
-    padding: 20px;
+    padding: 18px;
     margin: 20px;
     border-radius: 25PX;
     
@@ -119,7 +120,7 @@ header p3{
 
 .announcement p2{
     font-size: 15px;
-    font-family: Playfair Display;
+    font-family: Playfair Display, Josefin 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: wheat;
     padding-bottom: 20px;
     padding-left: 50px;
@@ -176,7 +177,7 @@ section p{
     max-width: 100%;
     align-items: center;
     padding: 5%;
-    font-family: playfair display;
+    font-family: playfair display, Josefin 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 2;
 }
 
@@ -273,7 +274,7 @@ section p{
     width: 100%;
     height: auto;
     align-items: center;
-    font-family: Cinzel;
+    font-family: Cinzel, Josefin Sans, 'Times New Roman', Times, serif;
     padding-top: 30px;
     font-size: 20px;
     background: bisque;
@@ -284,7 +285,7 @@ section p{
 #Gallery img{
     margin-left: 120px;
     margin-top: 30px;
-    padding:20px
+    padding:20px;
 }
 
 .gal img{
@@ -293,14 +294,16 @@ section p{
 .gal img:hover{
     transform: scale(1.5);
 }
-
+.gal img :active{
+    pointer-events: none;
+}
 
 #ContactUs{
     color: darksalmon;
     width: 100%;
     height: auto;
     align-items: center;
-    font-family: Cinzel;
+    font-family: Cinzel,'Times New Roman', Times, serif;
     padding-top: 30px;
     font-size: 20px;
     background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/kids.jpg') no-repeat;
@@ -323,10 +326,10 @@ section p{
 }
 
 .contactcontent{
-    font-family: Playfair Display;
+    font-family: 'Times New Roman', Times,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     margin-left: 240px;
-    line-height: 3;
+    line-height: 2;
 }
 
 iframe{
@@ -334,6 +337,26 @@ iframe{
     height: 380px
 }
 
+
+.back-top{
+    position: fixed;
+    bottom: 2rem;
+    right:2rem;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color:bisque;
+    border-radius:5px;
+    padding:5px;
+    text-decoration:none;
+    transition:0.2s ease-in-out;
+}
+
+.back-top span{
+    color:black;
+    font-size: 25px;
+    transition: 0.2s;
+}
 @media screen and (max-width: 768px){
     nav{
         flex-direction: column;
