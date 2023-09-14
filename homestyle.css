@@ -318,6 +318,7 @@ section p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 55px;
 }
 
 .mapcontainer h1{
@@ -326,30 +327,29 @@ section p{
 }
 
 .contactcontent{
-    font-family: Garamond,'Times New Roman', Times,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: beige;
-    margin-left: 25px;
+    font-family: Garamond,'Times New Roman', Times,'Gill Sans', 'Gill Sans MT';
+    margin-right: 75px;
+    margin-left: 450px;
+    margin-top: 25px;
     line-height: 2;
+    font-size: 16px;
 }
 
 .ausd{
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
-    align-items: right;
+    align-items: left;
     justify-content: right;
     border: solid;
     border-radius: 15px;
     background-color: bisque;
     border-width: 100%;
-
 }
-
-.ausd h3 h4 h5{
+.ausd img{
     display: flex;
     align-items: left;
     justify-content: left;
 }
-
 iframe{
     width: 60%;
     height: 380px
